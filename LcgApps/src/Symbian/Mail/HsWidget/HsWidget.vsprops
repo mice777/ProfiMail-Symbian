@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="HsWidget"
+	>
+	<UserMacro
+		Name="IM_SYMB_S60_3RD_SDK"
+		Value="C:\Symbian\N97\Nokia_N97_SDK_v1.0\epoc32"
+		PerformEnvironmentSet="true"
+	/>
+</VisualStudioPropertySheet>

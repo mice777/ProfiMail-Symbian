@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="ProfiMail"
+	>
+	<UserMacro
+		Name="OBJS"
+		Value="$(IntDir)\Accounts.o $(IntDir)\AddressBook.o $(IntDir)\AudioPreview.o $(IntDir)\BtSend.o $(IntDir)\CharDecoder.o $(IntDir)\Connection.o $(IntDir)\ConnectionIMAP.o $(IntDir)\ConnectionPOP3.o $(IntDir)\ConnectionSMTP.o $(IntDir)\DataCounter.o $(IntDir)\FileBrowser.o $(IntDir)\FoldersList.o $(IntDir)\Graphics.o $(IntDir)\Identities.o $(IntDir)\ImageViewer.o $(IntDir)\Mailbox.o $(IntDir)\Main.o $(IntDir)\Message.o $(IntDir)\NotifyWindow.o $(IntDir)\Parser.o $(IntDir)\Rules.o $(IntDir)\ScanDirs.o $(IntDir)\Signatures.o $(IntDir)\SimpleSoundPlayer.o $(IntDir)\Viewer.o $(IntDir)\WriteMail.o"
+		PerformEnvironmentSet="true"
+	/>
+	<UserMacro
+		Name="DEPS"
+		Value="$(IntDir)\Accounts.o;$(IntDir)\AddressBook.o;$(IntDir)\AudioPreview.o;$(IntDir)\BtSend.o;$(IntDir)\CharDecoder.o;$(IntDir)\Connection.o;$(IntDir)\ConnectionIMAP.o;$(IntDir)\ConnectionPOP3.o;$(IntDir)\ConnectionSMTP.o;$(IntDir)\DataCounter.o;$(IntDir)\FileBrowser.o;$(IntDir)\FoldersList.o;$(IntDir)\Graphics.o;$(IntDir)\Identities.o;$(IntDir)\ImageViewer.o;$(IntDir)\Mailbox.o;$(IntDir)\Main.o;$(IntDir)\Message.o;$(IntDir)\NotifyWindow.o;$(IntDir)\Parser.o;$(IntDir)\Rules.o;$(IntDir)\ScanDirs.o;$(IntDir)\Signatures.o;$(IntDir)\SimpleSoundPlayer.o;$(IntDir)\Viewer.o;$(IntDir)\WriteMail.o;..\Email\PM.dta"
+	/>
+	<UserMacro
+		Name="BUILD_DIR"
+		Value="_build\Mail"
+		PerformEnvironmentSet="true"
+	/>
+	<UserMacro
+		Name="LANG_DIR"
+		Value="..\Lang\Email"
+		PerformEnvironmentSet="true"
+	/>
+	<UserMacro
+		Name="RES_DIR"
+		Value="Android\ProfiMail\res"
+	/>
+</VisualStudioPropertySheet>

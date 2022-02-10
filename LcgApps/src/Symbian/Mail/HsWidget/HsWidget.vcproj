@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="HsWidget"
+	ProjectGUID="{4074A7F2-5435-4D2A-B27A-1EACD988B54D}"
+	RootNamespace="HsWidget"
+	TargetFrameworkVersion="131072"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+		<ToolFile
+			RelativePath="..\..\..\..\..\Tools\VS2005Rules\LCG_rules.rules"
+		/>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="S60 3rd Release|Win32"
+			OutputDirectory="_build\S60_3rd_Release"
+			IntermediateDirectory="_build\S60_3rd_Release"
+			ConfigurationType="10"
+			InheritedPropertySheets=".\HsWidget.vsprops"
+			DeleteExtensionsOnClean="*.lst;*.obj;*.ilk;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;$(TargetPath)"
+			BuildLogFile=""
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="RSC_3RD"
+			/>
+			<Tool
+				Name="GCC_CPP_Symbian_3rd"
+			/>
+			<Tool
+				Name="SVG_MIF"
+			/>
+			<Tool
+				Name="GCC_CPP_Symbian_2nd"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj"
+			>
+			<File
+				RelativePath=".\Main.cpp"
+				>
+				<FileConfiguration
+					Name="S60 3rd Release|Win32"
+					>
+					<Tool
+						Name="GCC_CPP_Symbian_3rd"
+						ADDOPTS="-D__GCCE__ -I$(IM_SYMB_S60_3RD_SDK)\include\stdapis -I$(IM_SYMB_S60_3RD_SDK)\include\stdapis\stlport"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl"
+			>
+			<File
+				RelativePath=".\Main.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Symbian"
+			>
+			<File
+				RelativePath=".\Symbian\LinkSymbian3rd.bat"
+				>
+				<FileConfiguration
+					Name="S60 3rd Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Linking..."
+						CommandLine="$(InputPath)&#x0D;&#x0A;"
+						AdditionalDependencies="$(IntDir)\Main.o"
+						Outputs="_build\HsWidget.dll"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\Symbian\S60_3rd.def"
+				>
+				<FileConfiguration
+					Name="S60 3rd Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description=""
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

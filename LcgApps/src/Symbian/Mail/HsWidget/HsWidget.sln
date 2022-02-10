@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HsWidget", "HsWidget.vcproj", "{4074A7F2-5435-4D2A-B27A-1EACD988B54D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		S60 3rd Release|Mixed Platforms = S60 3rd Release|Mixed Platforms
+		S60 3rd Release|Pocket PC 2003 (ARMV4) = S60 3rd Release|Pocket PC 2003 (ARMV4)
+		S60 3rd Release|Win32 = S60 3rd Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4074A7F2-5435-4D2A-B27A-1EACD988B54D}.S60 3rd Release|Mixed Platforms.ActiveCfg = S60 3rd Release|Win32
+		{4074A7F2-5435-4D2A-B27A-1EACD988B54D}.S60 3rd Release|Mixed Platforms.Build.0 = S60 3rd Release|Win32
+		{4074A7F2-5435-4D2A-B27A-1EACD988B54D}.S60 3rd Release|Pocket PC 2003 (ARMV4).ActiveCfg = S60 3rd Release|Win32
+		{4074A7F2-5435-4D2A-B27A-1EACD988B54D}.S60 3rd Release|Win32.ActiveCfg = S60 3rd Release|Win32
+		{4074A7F2-5435-4D2A-B27A-1EACD988B54D}.S60 3rd Release|Win32.Build.0 = S60 3rd Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

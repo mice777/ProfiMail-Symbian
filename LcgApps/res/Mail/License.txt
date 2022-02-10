@@ -1,0 +1,4 @@
+ProfiMail - opensource version
+
+This ProfiMail is built from opensource, and may be modified.
+Use at your own risk.

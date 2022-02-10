@@ -1,0 +1,15 @@
+#{"ProfiMail"},(0xa000b86f),3,60,0
+%{"Lonely Cat Games"} 
+:"Lonely Cat Games" 
+[0x101F7961], 0, 0, 0, {"Series60ProductID"} 
+[0x1028315F], 0, 0, 0, {"Series60ProductID"} 
+"_build\Mail\S60_3rd_Release\lcg32.bin"           - "!:\private\a000b86f\app.bin" 
+"_build\Mail\S60_3rd_Release\StubE32.exe"         - "!:\sys\bin\ProfiMail_free.exe" 
+"_build\Mail\S60_3rd_Release\resources.rsc"       - "!:\resource\apps\ProfiMail_free.rsc" 
+"_build\Mail\S60_3rd_Release\resources_reg.rsc"   - "!:\private\10003a3f\import\apps\ProfiMail_free_reg.rsc" 
+"_build\Mail\S60_3rd_Release\icon.mif"            - "!:\resource\apps\ProfiMail_free.mif" 
+"Symbian\Mail\HsWidget.dll"                       - "!:\sys\bin\profimailhswidget_free.dll" 
+"_build\Mail\S60_3rd_Release\pm.dta"              - "!:\private\a000b86f\Email\pm.dta" 
+"" - "!:\System\Data\ProfiMail\UnreadCount.bin",FN 
+"..\Email\alert.mid"                                - "!:\private\a000b86f\Email\alert.mid" 
+"..\res\Mail\License.txt"                           - "!:\private\a000b86f\Email\License.txt" 

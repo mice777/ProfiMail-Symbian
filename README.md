@@ -2,6 +2,8 @@
 
 ![ProfiMail app on Symbian phone small screen](https://www.lonelycatgames.com/wp-content/uploads/profimail/symbian-accounts.jpg)
 
+What is ProfiMail? It was once very popular email client for then popular mobile phones with Symbian OS. It was developed since 2004, and was since then #1 email client for Symbian, until Nokia and Symbian died in around 2013.
+
 Developed and (c) Lonely Cat Games
 
 Released to public domain in July 2016
